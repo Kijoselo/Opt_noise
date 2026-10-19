@@ -1,0 +1,98 @@
+
+>>>>>>>> B1: WPS-model sensitivity
+case       model             base   optimum reduction
+XFoil Converged
+XFoil Converged
+NACA63221  TNO             67.097    65.815     1.282
+XFoil Converged
+XFoil Converged
+NACA63221  Goody           63.207    60.818     2.389
+XFoil Converged
+XFoil Converged
+NACA63221  Kamruzzaman     66.031    66.713    -0.682
+XFoil Converged
+XFoil Converged
+NACA63218  TNO             67.818    65.762     2.055
+XFoil Converged
+XFoil Converged
+NACA63218  Goody           64.082    61.865     2.217
+XFoil Converged
+XFoil Converged
+NACA63218  Kamruzzaman     67.446    67.268     0.178
+<<<<<<<< B1 done
+
+>>>>>>>> B3: Cf/H distributions
+XFoil Converged
+XFoil Converged
+  saved paper\figures\fig_cfh_NACA63221.png  (19.0 x 6.9 cm, 600 dpi)
+XFoil Converged
+XFoil Converged
+  saved paper\figures\fig_cfh_NACA63218.png  (19.0 x 6.9 cm, 600 dpi)
+<<<<<<<< B3 done
+
+>>>>>>>> B4: off-design sweep
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+NACA63221  Re=3.17e6:
+   AoA:       2.0    3.0    4.0    5.0    6.0
+   base:    67.75  67.47  67.10  66.63  66.05
+   opt:     66.55  66.22  65.81  65.30  65.97
+   gain:     1.20   1.25   1.28   1.33   0.07
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+NACA63221  Re=2.28e6:
+   AoA:       2.0    3.0    4.0    5.0    6.0
+   base:    60.61  60.38  60.08  59.71  59.26
+   opt:     59.41  59.17  58.90  58.60  58.75
+   gain:     1.20   1.21   1.18   1.11   0.51
+  saved paper\figures\fig_offdesign_NACA63221.png  (12.0 x 8.3 cm, 600 dpi)
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+NACA63218  Re=3.17e6:
+   AoA:       2.0    3.0    4.0    5.0    6.0
+   base:    68.34  68.12  67.82  67.44  66.96
+   opt:     66.45  66.13  65.76  65.29  64.85
+   gain:     1.90   1.98   2.06   2.15   2.12
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+NACA63218  Re=2.28e6:
+   AoA:       2.0    3.0    4.0    5.0    6.0
+   base:    61.27  61.07  60.82  60.49  60.09
+   opt:     59.45  59.24  58.98  58.67  58.37
+   gain:     1.81   1.83   1.83   1.82   1.72
+  saved paper\figures\fig_offdesign_NACA63218.png  (12.0 x 8.3 cm, 600 dpi)
+<<<<<<<< B4 done
+
+=== REVIEW STUDIES COMPLETE in 1.4 min ===

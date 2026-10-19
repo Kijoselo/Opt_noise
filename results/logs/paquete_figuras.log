@@ -1,0 +1,20 @@
+=== NACA63218 ===
+  saved C:\Users\josea\Desktop\Opti_Param_ruidoio\paquete_revision_final\NACA63218\fig_polar_base_vs_optimo_NACA63218.png  (17.0 x 12.3 cm, 600 dpi)
+  polar Cl/Cd@4: base 60.1 | optimo 61.5
+XFoil Converged
+XFoil Converged
+  saved C:\Users\josea\Desktop\Opti_Param_ruidoio\paquete_revision_final\NACA63218\fig_OASPL_espectro_NACA63218.png  (19.0 x 6.1 cm, 600 dpi)
+  OASPL(A): base 67.818 -> optimo 65.778 dBA (TNO)
+  saved C:\Users\josea\Desktop\Opti_Param_ruidoio\paquete_revision_final\NACA63218\fig_histograma_NACA63218.png  (12.0 x 7.7 cm, 600 dpi)
+  histograma: 256 disenos <=best+0.5 de 473 validos
+=== NACA63221 ===
+  saved C:\Users\josea\Desktop\Opti_Param_ruidoio\paquete_revision_final\NACA63221\fig_polar_base_vs_optimo_NACA63221.png  (17.0 x 12.3 cm, 600 dpi)
+  polar Cl/Cd@4: base 54.2 | optimo 59.0
+XFoil Converged
+XFoil Converged
+  saved C:\Users\josea\Desktop\Opti_Param_ruidoio\paquete_revision_final\NACA63221\fig_OASPL_espectro_NACA63221.png  (19.0 x 6.1 cm, 600 dpi)
+  OASPL(A): base 67.097 -> optimo 65.794 dBA (TNO)
+  saved C:\Users\josea\Desktop\Opti_Param_ruidoio\paquete_revision_final\NACA63221\fig_histograma_NACA63221.png  (12.0 x 7.7 cm, 600 dpi)
+  histograma: 229 disenos <=best+0.5 de 383 validos
+
+Paquete de figuras completo.

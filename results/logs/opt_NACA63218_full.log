@@ -1,0 +1,1893 @@
+XFoil Converged
+Case: NACA63218 (NACA63218.txt)
+Baseline: OASPL(A) = 67.793 dBA | Cl/Cd = 59.67 (Cl 0.6397, Cd 0.01072)
+
+
+                                      Max
+  Iter   Func-count       f(x)      Constraint   MeshSize      Method
+    0         1      67.7934            0            1    
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+XFoil Converged
+    1         8      67.0183            0     0.009772   Update multipliers
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 107)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+[Warning: File 'doesntmatter' not found.] 
+[> In XFOIL_new_airfoil (line 108)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File 'doesntmatter' not found.] 
+[> In XFOIL_new_airfoil (line 108)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 108)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File 'POLAR_OUTPUT' not found.] 
+[> In XFOIL_new_airfoil (line 107)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+[Warning: File 'doesntmatter' not found.] 
+[> In XFOIL_new_airfoil (line 108)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In eval_airfoil_cached>compute_one (line 78)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+    2       502      65.8115            0     0.000955   Update multipliers
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Nonfinite endpoints or increment for colon operator in index.
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+  [eval error] Error using dlmread (line 79)
+The file 'POLAR_OUTPUT' could not be opened because: No such file or directory
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+XFoil Converged
+[Warning: File not found or permission denied] 
+[> In XFOIL_new_airfoil (line 49)
+In surface_pressure_spectrum (line 6)
+In evaluate_airfoil (line 33)
+In eval_airfoil_cached>compute_one (line 81)
+In eval_airfoil_cached (line 37)
+In con_clcd (line 6)
+In run_optimization>@(dv)con_clcd(dv,P.ctx) (line 27)
+In augLagFun>augLagScalarFun (line 175)
+In augLagFun (line 44)
+In createAnonymousFcn>@(x)fcn(x,FcnArgs{:}) (line 11)
+In funevaluate (line 40)
+In psnextfeasible (line 63)
+In poll/classic_poll (line 91)
+In poll (line 61)
+In pfminbnd (line 61)
+In pfmincon (line 93)
+In patternsearch (line 300)
+In run_optimization (line 33)] 
+XFoil Failed to Converge, Please check Input Parameters
+  [eval error] Output argument "DSTRS" (and possibly others) not assigned a value in the execution with "XFOIL_new_airfoil" function.
+    3       771      65.8115            0    9.333e-05   Update multipliers
+Optimization finished: mesh size less than options.MeshTolerance 
+and constraint violation is less than options.ConstraintTolerance.
+
+==== Result (hard Cl/Cd constraint) ====
+  OASPL(A): 67.793 -> 65.812 dBA   (gain 1.982 dBA)
+  Cl/Cd   : 59.67 -> 63.29       (must not drop below 59.67)
+  Saved: .\optimized_NACA63218_hardcon.dat
+  saved fig_silhouette_hardcon_NACA63218.png  (9.0 x 5.4 cm, 600 dpi)
+  saved fig_spectrum_hardcon_NACA63218.png  (19.0 x 5.2 cm, 600 dpi)
+
+ans =
+
+    0.2252
+    0.2050
+    0.3861
+    0.1027
+    0.4879
+    0.1967
+    0.1989
+   -0.1760
+   -0.1544
+   -0.1872
+   -0.2825
+   -0.0818
+   -0.1141
+    0.0336
+

@@ -1,0 +1,42 @@
+Condiciones: AoA=4  Re=3.17e+06  M=0.242  xtr=0.05
+
+==== BARRIDO A_simetrico ====
+geom            tmax%   OASPLA OASPLlin   Cl/Cd  dstar_s     H_s   Cf_s
+XFoil Converged
+NACA0008          8.0   68.531   68.983   54.10  0.00311   1.567 0.00154
+XFoil Converged
+NACA0010         10.0   68.544   69.125   53.17  0.00347   1.624 0.00132
+XFoil Converged
+NACA0012         12.0   68.451   69.223   50.82  0.00402   1.693 0.00111
+XFoil Converged
+NACA0015         15.0   68.062   69.126   47.16  0.00505   1.824 0.00081
+XFoil Converged
+NACA0018         18.0   67.369   68.696   43.32  0.00638   2.003 0.00055
+XFoil Converged
+NACA0021         21.0   66.345   67.838   38.96  0.00819   2.268 0.00032
+XFoil Converged
+NACA0024         24.0   65.067   66.489   33.63  0.01087   2.732 0.00012
+  -> OASPL(A) NO monotono (revisar puntos): diffs = 0.013 -0.093 -0.389 -0.694 -1.024 -1.278
+
+==== BARRIDO B_escalado63221 ====
+geom            tmax%   OASPLA OASPLlin   Cl/Cd  dstar_s     H_s   Cf_s
+XFoil Converged
+63221 x0.60      12.6   68.450   69.268   69.64  0.00422   1.696 0.00112
+XFoil Converged
+63221 x0.70      14.7   68.334   69.326   66.21  0.00489   1.776 0.00092
+XFoil Converged
+63221 x0.80      16.8   68.078   69.232   62.60  0.00577   1.887 0.00072
+XFoil Converged
+63221 x0.90      18.9   67.671   68.941   58.65  0.00691   2.038 0.00052
+XFoil Converged
+63221 x1.00      21.0   67.098   68.380   54.17  0.00848   2.264 0.00033
+XFoil Converged
+63221 x1.10      23.1   66.418   67.496   48.78  0.01081   2.654 0.00015
+XFoil Converged
+63221 x1.20      25.2   66.135   67.133   39.02  0.01613   4.017 -0.00000
+  -> OASPL(A) MONOTONO decreciente con el espesor.
+
+  saved C:\Users\josea\Desktop\Opti_Param_ruidoio\verificacion_espesor\fig_espesor_vs_ruido.png  (19.0 x 7.1 cm, 600 dpi)
+  saved C:\Users\josea\Desktop\Opti_Param_ruidoio\verificacion_espesor\fig_espesor_capalimite.png  (19.0 x 7.1 cm, 600 dpi)
+
+Listo. Resultados en C:\Users\josea\Desktop\Opti_Param_ruidoio\verificacion_espesor

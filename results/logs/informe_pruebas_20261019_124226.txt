@@ -1,0 +1,40 @@
+Informe de pruebas  19-Oct-2026 12:42:26  (31 s)
+Resultado global: true
+
+== dependencias ==
+                          <strong>prueba</strong>                          <strong>estado</strong>                               <strong>detalle</strong>                           
+    <strong>__________________________________________________</strong>    <strong>______</strong>    <strong>_____________________________________________________________</strong>
+
+    {'sintaxis (129 archivos)'                       }    {'OK'}    {0×0 char                                                   }
+    {'sin rutas absolutas ni cd(parent)'             }    {'OK'}    {0×0 char                                                   }
+    {'dependencias dentro del proyecto (16 entradas)'}    {'OK'}    {0×0 char                                                   }
+    {'toolboxes requeridos'                          }    {'OK'}    {'Global Optimization Toolbox, MATLAB, Optimization Toolbox'}
+    {'binario y datos clave'                         }    {'OK'}    {0×0 char                                                   }
+
+
+
+== geometria ==
+                <strong>prueba</strong>                  <strong>valor</strong>       <strong>limite</strong>    <strong>estado</strong>
+    <strong>______________________________</strong>    <strong>__________</strong>    <strong>______</strong>    <strong>______</strong>
+
+    {'rms CST(6) NACA63221.txt'  }    0.00022403    0.001     {'OK'}
+    {'rms CST(6) NACA63218.txt'  }    0.00052699    0.001     {'OK'}
+    {'write/read .dat'           }    9.9755e-06    1e-05     {'OK'}
+    {'tmax/c NACA63221'          }       0.20998     0.21     {'OK'}
+    {'buscar_perfil('naca63221')'}             1        1     {'OK'}
+
+
+
+== reproducibilidad ==
+                  <strong>perfil</strong>                   <strong>esperado</strong>    <strong>obtenido</strong>    <strong>succion</strong>    <strong>presion</strong>    <strong>estado</strong>
+    <strong>___________________________________</strong>    <strong>________</strong>    <strong>________</strong>    <strong>_______</strong>    <strong>_______</strong>    <strong>______</strong>
+
+    {'NACA63221.txt'                  }     67.11       67.107     60.958     65.899     {'OK'}
+    {'cst_baseline_NACA63221.dat'     }      67.1       67.097     60.926     65.896     {'OK'}
+    {'optimized_NACA63221_hardcon.dat'}     65.81       65.815     56.841     65.227     {'OK'}
+    {'NACA63218.txt'                  }     67.75       67.754     63.462     65.731     {'OK'}
+    {'cst_baseline_NACA63218.dat'     }     67.82       67.818      63.61     65.745     {'OK'}
+    {'opt_NACA63218_definitivo.dat'   }     65.64       65.636     56.879     65.015     {'OK'}
+
+
+
