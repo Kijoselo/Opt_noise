@@ -1,0 +1,29 @@
+PLOP
+G F
+
+load
+airfoil_in.dat
+new 
+pane 
+
+
+oper
+visc
+3.16578e+06
+mach 0.241919
+iter 1000
+vpar
+N 9.0046
+
+vpar
+xtr
+0.05
+0.05
+
+pacc
+POLAR_OUTPUT
+doesntmatter
+alfa 4
+cpwr  XFOIL_CP_Output
+DUMP XFOIL_Output
+quit
