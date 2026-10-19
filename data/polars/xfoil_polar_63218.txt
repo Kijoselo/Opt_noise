@@ -1,0 +1,28 @@
+PLOP
+G F
+
+load
+cst_baseline_NACA63218.dat
+new
+pane
+
+oper
+visc
+3.166e6
+mach 0.242
+iter 200
+vpar
+N 8.9
+
+vpar
+xtr
+0.05
+0.05
+
+pacc
+polar_base_63218.txt
+
+aseq -15 20 0.5
+pacc
+
+quit
