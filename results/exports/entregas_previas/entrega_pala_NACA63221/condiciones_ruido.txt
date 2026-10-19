@@ -1,0 +1,90 @@
+=====================================================================
+ CONDICIONES APLICADAS PARA EL CALCULO DE RUIDO DE BORDE DE FUGA
+ Caso: NACA 63-221 (seccion 21%, tramo medio de pala eolica)
+ Fecha de los resultados: 2026-07-10 (corrida definitiva, auditada)
+=====================================================================
+
+ARCHIVOS DE COORDENADAS (formato Selig: TE -> extrados -> LE -> intrados -> TE,
+normalizadas por cuerda):
+  perfil_base_NACA63221_oficial.dat   coordenadas oficiales del NACA 63-221 (61 pts)
+  perfil_base_CST_NACA63221.dat       proyeccion CST orden 6 del base (199 pts).
+                                      ES el baseline real de la optimizacion
+                                      (error vs oficial: max 8.5e-4 c, 0.01 dBA)
+  perfil_optimizado_NACA63221.dat     perfil optimizado (199 pts, definitivo)
+
+---------------------------------------------------------------------
+1. FLUJO / CASO DE OPERACION
+---------------------------------------------------------------------
+  Cuerda                  c      = 0.57 m
+  Envergadura (span)      b      = 1 m
+  Velocidad relativa      U      = 83.31 m/s   (velocidad relativa de la
+                                                seccion de pala, NO viento libre)
+  Angulo de ataque        AoA    = 4 deg       (punto de diseno: maximo L/D con
+                                                succion adherida; >=6 deg separa)
+  Reynolds                Re     = 3.17e6      (= c*U/nu)
+  Mach                    M      = 0.242       (= U/c0)
+  Transicion forzada      x/c    = 0.05        (AMBAS superficies, xtr_s = xtr_p)
+
+---------------------------------------------------------------------
+2. FLUIDO (aire)
+---------------------------------------------------------------------
+  Temperatura             T      = 22 C (295.15 K)
+  Densidad                rho    = 1.181 kg/m^3
+  Viscosidad cinematica   nu     = 1.5e-5 m^2/s
+  Velocidad del sonido    c0     = 344 m/s     (= sqrt(gamma*R*Tk), gamma=1.4, R=287)
+
+---------------------------------------------------------------------
+3. MODELO DE RUIDO Y OBSERVADOR
+---------------------------------------------------------------------
+  Cadena de prediccion:   XFOIL (capa limite viscosa)
+                          -> TNO-Blake (espectro de presion de pared)
+                          -> Amiet + correccion de retrodispersion Roger-Moreau
+                             (campo lejano)
+  Espectro de pared muestreado en x/c = 0.99 (ambas superficies; contribuciones
+    de succion y presion se calculan por separado y se suman en energia)
+  Observador:             (x, y, z) = (0, 0, 1) m   (1 m sobre el borde de fuga)
+  Rango de frecuencia:    100 - 20000 Hz
+  Metrica objetivo:       OASPL(A)  [ponderacion A, integrada en frecuencia]
+
+---------------------------------------------------------------------
+4. RESULTADOS DEL PUNTO DE DISENO (para verificacion cruzada)
+---------------------------------------------------------------------
+                         OASPL(A)    Cl       Cd       Cl/Cd    Cm      tmax/c
+  Baseline (CST)         67.10 dBA   0.6300   0.01163  54.17   -0.0381  0.210
+  Optimizado             65.82 dBA   0.7128   0.01301  54.79   -0.0127  0.205
+  Reduccion              1.28 dBA  (~26 % de la energia acustica ponderada A)
+
+  Capa limite en x/c = 0.99 (delta*/c, theta/c, H, Cf, Ue/Uinf):
+    base succion   0.0149  0.0066  2.26  0.00033  0.869
+    base presion   0.0042  0.0029  1.46  0.00167  0.861
+    opt  succion   0.0213  0.0081  2.62  0.00015  0.861
+    opt  presion   0.0042  0.0026  1.59  0.00140  0.872
+
+---------------------------------------------------------------------
+5. COMO SE OBTUVO EL PERFIL OPTIMIZADO (contexto)
+---------------------------------------------------------------------
+  Parametrizacion:  CST (Kulfan) orden 6 -> 14 variables de diseno
+  Caja de diseno:   coeficientes CST en +-50% del baseline (piso absoluto 0.05)
+  Optimizador:      pattern search, presupuesto 2000 evaluaciones,
+                    terminado por tolerancia de malla 1e-4 (convergido)
+  Restricciones:    Cl/Cd >= baseline (dura, no lineal)
+                    espesor maximo <= espesor del baseline (activa en el optimo)
+                    espesor maximo >= 50% del baseline
+                    sin cruce de superficies; frente mas grueso que cola
+                    ADHERENCIA (validez del modelo TNO): H <= 2.7 y
+                    Cf >= 1.5e-4 en la succion a x/c = 0.99 (ambas activas)
+
+---------------------------------------------------------------------
+6. NOTAS PARA LA SIMULACION DE LA PALA COMPLETA
+---------------------------------------------------------------------
+  - El optimizado se diseno para ESTE unico punto de operacion (AoA 4, Re 3.17e6);
+    su comportamiento fuera de diseno no esta verificado.
+  - El optimizado conserva el espesor maximo (~21%) -> conserva la profundidad
+    estructural de la seccion; la reduccion viene de reformar la curvatura
+    (camber 0.011 -> 0.046, adelantado a x/c 0.30), con Cm menos negativo.
+  - La succion del optimizado opera cerca del limite de adherencia (H=2.62,
+    Cf en el piso): margen reducido frente a separacion a mayor incidencia.
+  - La reduccion de 1.28 dBA es condicional a la caja de diseno +-50%
+    (cajas mas anchas dan mas reduccion con geometrias mas alejadas de la
+    familia 63-221: +-30% -> 1.02 dBA, +-70% -> 1.74 dBA).
+=====================================================================

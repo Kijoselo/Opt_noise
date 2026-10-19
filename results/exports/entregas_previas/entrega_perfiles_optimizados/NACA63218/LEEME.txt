@@ -1,0 +1,40 @@
+SECCION DE PUNTA - NACA 63-218 (para simulacion de pala completa)
+===================================================================
+ACTUALIZADO al OPTIMO DEFINITIVO ROBUSTO (malla convergida).
+
+perfil_base_NACA63218.dat        Geometria BASE (199 pts, formato Selig,
+                                 normalizada por cuerda). Proyeccion CST del
+                                 NACA 63-218 oficial (misma con la que se
+                                 calculo su polar).
+
+perfil_optimizado_NACA63218.dat  Geometria OPTIMIZADA DEFINITIVA. Optimo
+                                 ROBUSTO (minimiza el peor caso entre TNO,
+                                 Goody y Kamruzzaman), dominio expandido,
+                                 malla convergida.
+                                 OASPL(A) TNO: 67.82 -> 65.64 dBA
+                                 Reduccion robusta: TNO -2.2, Goody -2.0,
+                                 Kamruzzaman -1.9 dB (los 3 modelos).
+                                 Cl/Cd 60.1 -> 63.2 | espesor ~18% (NO adelgaza)
+
+polar360_base.txt                Polar +-180 grados de la geometria BASE.
+polar360_optimizado.txt          Polar +-180 grados del OPTIMO DEFINITIVO.
+                                 (XFOIL en rango convergido + Viterna afuera,
+                                  formato alpha[deg] Cl Cd, paso 1 grado)
+
+fig_geometria_base_vs_optimo.png Siluetas base vs optimo definitivo.
+fig_polar360.png                 Polar +-180 base vs optimo.
+fig_OASPL_espectro.png           Espectro de ruido base vs optimo.
+fig_historial_optimizacion.png   (historial de una corrida previa; referencia)
+
+CAMBIO IMPORTANTE respecto a la version anterior de esta carpeta:
+  El optimo anterior era DELGADO (13%) y resulto ser un SOBREAJUSTE al modelo
+  TNO (solo bajaba en TNO, no en los otros modelos; geometria poco convencional
+  y margen negativo reducido). Se REEMPLAZO por el optimo ROBUSTO definitivo
+  (~18%, convencional), que reduce el ruido en 3 modelos y mejora el Cl/Cd.
+  El optimo viejo quedo en _optimo_viejo_delgado_DESCARTADO/ (NO usar).
+
+CONDICIONES: AoA 4 deg, U 83.31 m/s, Re 3.17e6, M 0.242, transicion x/c=0.05
+ambas caras, observador a 1 m. Polares: XFOIL N_crit 8.9.
+
+NOTA: disenado en un unico punto de operacion. La simulacion de pala la corren
+ustedes con estos insumos (coordenadas + polares +-180).

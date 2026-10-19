@@ -1,0 +1,30 @@
+CONTENIDO DE ESTA CARPETA (entrega para simulacion de pala completa)
+======================================================================
+
+perfil_base_NACA63221_oficial.dat   Coordenadas oficiales del NACA 63-221
+                                    (61 puntos, formato Selig, normalizadas
+                                    por cuerda). Perfil de referencia.
+
+perfil_base_CST_NACA63221.dat       Proyeccion CST (orden 6) del perfil base,
+                                    199 puntos. Es el baseline REAL usado por
+                                    el optimizador (difiere del oficial en
+                                    <8.5e-4 c y 0.01 dBA). Usar este si se
+                                    quiere reproducir exactamente el 67.10 dBA.
+
+perfil_optimizado_NACA63221.dat     Perfil OPTIMIZADO definitivo (199 puntos).
+                                    OASPL(A) 65.82 dBA (-1.28 dBA vs base),
+                                    Cl/Cd 54.8, espesor conservado (~21%).
+
+condiciones_ruido.txt               TODAS las condiciones usadas para calcular
+                                    el ruido (flujo, fluido, modelo, observador,
+                                    restricciones) + resultados de verificacion.
+
+INFORME_CODIGO.md                   Informe de como funciona el codigo
+                                    (arquitectura, cadena de prediccion, capa
+                                    de optimizacion, recetas de uso, gotchas).
+
+NOTA IMPORTANTE para la comparacion en la pala:
+El perfil optimizado se disenno para UN punto de operacion (AoA 4 deg,
+U 83.31 m/s, Re 3.17e6, transicion forzada 0.05). Fuera de ese punto su
+comportamiento no esta verificado, y su succion opera cerca del limite de
+adherencia (margen reducido a mayor incidencia).

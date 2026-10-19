@@ -1,0 +1,87 @@
+=====================================================================
+ OPTIMIZACION DE RUIDO: NACA 63-218 (perfil 18% de la serie)
+ Actualizado: 2026-07-17 | Todas las corridas limpias y verificadas
+=====================================================================
+
+CONDICIONES: AoA 4 deg, U 83.31 m/s, Re 3.17e6, transicion 0.05,
+observador (0,0,1) m. Detalle completo en ../entrega_pala_NACA63221/
+condiciones_ruido.txt (mismo caso de operacion).
+
+BASELINE (verificado en evaluacion limpia):
+  OASPL(A) = 67.82 dBA | OASPL sin filtro = 69.04 dB
+  Cl/Cd = 60.09 (Cl 0.6448, Cd 0.01073) | tmax/c = 0.181
+
+---------------------------------------------------------------------
+ CANDIDATOS OPTIMIZADOS (todos: pattern search, budget 2000,
+ restricciones: Cl/Cd >= 60.09 dura, cap/piso de espesor,
+ adherencia H <= 2.7 y Cf >= 1.5e-4 en succion)
+---------------------------------------------------------------------
+                             OASPL(A)  OASPLlin  Cl/Cd  tmax/c  Estado
+ baseline                      67.82     69.04   60.09  0.181     -
+ (1) opt. original A-pond.     65.81     66.26   63.29  0.176   INVALIDO*
+ (2) opt. original sin filtro  65.73     66.17   60.32  0.129   valido
+ (3) suavizado post-hoc de (1) 65.98     66.56   65.78  0.174   valido
+ (4) suavizado post-hoc de (2) 66.19     66.80   65.89  0.129   valido
+ (5) re-opt suave, obj. A      65.76     66.21   60.15  0.130   valido  <- RECOMENDADO (A)
+ (6) re-opt suave, obj. lin    65.72     66.15   61.42  0.127   valido  <- RECOMENDADO (lin)
+
+ * (1) se obtuvo en una corrida con archivos XFOIL contaminados por un
+   proceso concurrente; re-evaluado limpio viola la guarda de adherencia
+   (H = 2.77 > 2.70). Su cifra es reproducible pero esta fuera de la zona
+   de validez del modelo TNO. NO usar como candidato.
+
+ GANANCIAS RECOMENDADAS (limpias, convergidas por malla, geometria suave):
+   Objetivo OASPL(A):     67.82 -> 65.76 dBA  = 2.06 dBA (~38% energia A)
+   Objetivo OASPL lin:    69.04 -> 66.15 dB   = 2.89 dB  (~49% energia lineal)
+
+ Los candidatos (5) y (6) incluyen restriccion de suavidad
+ |A_i - A_{i+1}| <= 1.5 max|dif baseline| (24 desigualdades lineales)
+ y son mas suaves que el propio baseline (ondulacion 1.6-1.8 vs 2.85).
+
+---------------------------------------------------------------------
+ HALLAZGO MECANICO (importante para la discusion)
+---------------------------------------------------------------------
+ Para el 18%, TODOS los optimos limpios adelgazan la seccion a
+ t/c = 0.127-0.130 (el cap de espesor NO esta activo), con camber
+ aumentado y adelantado. La narrativa de "reforma a espesor constante"
+ solo aplica al caso NACA63221 (21%), donde el cap si esta activo.
+ En el 18%, el mecanismo dominante es capa limite mas delgada
+ (menos energia de baja frecuencia) + carga adelantada para sostener Cl.
+ Implicacion estructural: el candidato para pala pierde ~28% de
+ profundidad de seccion; verificar con el requisito estructural de la
+ estacion antes de adoptarlo.
+
+COMPARACION CON NACA63221 (21%), objetivo OASPL(A):
+  NACA63221: 67.10 -> 65.82 dBA (1.28 dBA), espesor conservado (cap activo)
+  NACA63218: 67.82 -> 65.76 dBA (2.06 dBA), adelgaza 18% -> 13%
+  Ambos optimos convergen a ~65.8 dBA dentro del box +-50%.
+
+ARCHIVOS (199 pts formato Selig, normalizados por cuerda):
+  perfil_base_NACA63218_oficial.dat      oficial (61 pts)
+  perfil_base_CST_NACA63218.dat          baseline CST (referencia real)
+  perfil_optimizado_NACA63218_suaveA.dat     candidato (5) RECOMENDADO A
+  perfil_optimizado_NACA63218_suaveLin.dat   candidato (6) RECOMENDADO lin
+  perfil_optimizado_NACA63218.dat            candidato (1) - NO USAR (ver *)
+  perfil_optimizado_NACA63218_sinfiltroA.dat candidato (2)
+  polar360_base.txt                        polar +-180 baseline
+  polar360_optimizado_suaveA.txt           polar +-180 candidato (5) RECOMENDADO
+  polar360_optimizado_suaveLin.txt         polar +-180 candidato (6)
+     (XFOIL dos marchas desde 0 deg + Viterna/AirfoilPrep, CDmax=1.3)
+
+VERIFICACION DE COHERENCIA DE LOS POLARES (2026-07-17):
+  - Cl/Cd a 4 deg reproduce EXACTO la cadena de ruido: 60.09/60.15/61.42
+  - Pendiente dCl/da: baseline 0.118/deg, optimos 0.103/deg (rango normal)
+  - Clmax: 1.45-1.49 en 15-15.5 deg, perdida suave (sin perdida de borde
+    de ataque pese al espesor 13%)
+  - Cm a 4 deg: -0.041 (base) vs -0.019/-0.021 (optimos): menos torsion
+  - Cd minimo de los optimos ~5% menor que el baseline
+  - CAVEAT: margen negativo reducido; convergencia hasta -13 (suaveA) y
+    -8.5 deg (suaveLin) vs -15 del baseline; perdida negativa ~-10 deg.
+    Verificar carga a alpha negativos (rafagas) en la simulacion de pala.
+
+FIGURAS: fig_geometrias_suavizadas.png (comparacion geometrica),
+  fig_polar_verificacion_suaves.png (Cl, Cd, Cl/Cd, Cm vs alpha),
+  fig_polar360_suaves.png (polares +-180 de los 3 perfiles),
+  fig_OASPL_espectro_NACA63218.png, fig_polar360.png,
+  fig_optimization_history_correct.png, fig_opt_history_sinfiltroA.png
+=====================================================================

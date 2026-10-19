@@ -1,0 +1,45 @@
+SECCION - NACA 63-221 (para simulacion de pala completa)
+===================================================================
+OPTIMO DEFINITIVO ROBUSTO (malla convergida). Mismo criterio y formato
+que la carpeta pala_punta_NACA63218, para que ambas secciones sean
+comparables en la simulacion de pala.
+
+perfil_base_NACA63221.dat        Geometria BASE (199 pts, formato Selig,
+                                 normalizada por cuerda). Proyeccion CST del
+                                 NACA 63-221 oficial (21% de espesor).
+
+perfil_optimizado_NACA63221.dat  Geometria OPTIMIZADA DEFINITIVA. Optimo
+                                 ROBUSTO (minimiza el peor caso entre TNO,
+                                 Goody y Kamruzzaman), dominio expandido,
+                                 malla convergida.
+                                 OASPL(A) TNO: 67.10 -> 65.71 dBA
+                                 Reduccion robusta: TNO -1.38, Goody -1.54,
+                                 Kamruzzaman -1.75 dB.
+                                 Cl/Cd 54.2 -> 59.9 | espesor 21.0% -> 18.0%
+
+polar360_base.txt                Polar +-180 grados de la geometria BASE.
+polar360_optimizado.txt          Polar +-180 grados del OPTIMO DEFINITIVO.
+                                 (XFOIL en rango convergido + Viterna afuera,
+                                  formato alpha[deg] Cl Cd, paso 1 grado)
+
+fig_geometria_base_vs_optimo.png Siluetas base vs optimo definitivo.
+fig_polar360.png                 Polar +-180 base vs optimo.
+fig_OASPL_espectro.png           Espectro de ruido base vs optimo.
+fig_historial_optimizacion.png   Historial de convergencia de la optimizacion.
+
+IMPORTANTE - cual optimo es este:
+  Este es el optimo ROBUSTO (18%), el mismo criterio del 63-218 que ya tienes.
+  Existe OTRO optimo del 63-221 (el del caso principal del paper, mono-modelo,
+  ~20.5%, reduccion 1.28 dBA) en la carpeta entrega_pala_NACA63221/. NO los
+  mezcles: para la pala, usa este (robusto 18%) en ambas secciones.
+
+CAVEAT (modelo): el modelo empirico Kamruzzaman NO converge en la geometria
+  base EXACTA del 63-221 (devuelve NaN); el optimo si converge (65.70 dBA).
+  Es un fallo numerico del modelo en esa forma, no afecta la geometria ni las
+  polares (que son de XFOIL).
+
+CONDICIONES: AoA 4 deg, U 83.31 m/s, Re 3.17e6, M 0.242, transicion x/c=0.05
+ambas caras, observador a 1 m. Polares: XFOIL + Viterna (CDmax 1.3).
+
+NOTA: disenado en un unico punto de operacion. La simulacion de pala la corren
+ustedes con estos insumos (coordenadas + polares +-180).

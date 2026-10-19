@@ -1,0 +1,37 @@
+Exportacion: sesion_main
+Fecha: 19-Oct-2026 12:35:03
+MATLAB: 25.2.0.3177638 (R2025b) Update 5
+Proyecto: C:\Users\josea\Desktop\Opti_Param_ruidoio\Proyecto_RuidoPerfil
+
+[caso]
+perfil = NACA63221.txt
+chord = 0.57
+span = 1
+U = 83.31
+x = 0
+y = 0
+z = 1
+AoA = 4
+xtr_s = 0.05
+xtr_p = 0.05
+Mic = 0.99
+semichord = 0.285
+Ky = NaN
+M = 0.241919
+Re = 3.16578e+06
+model = TNO
+tno_perfil = original
+
+[fluido]
+T = 22
+Tk = 295.15
+P = 100000
+ni = 1.5e-05
+gamma = 1.4
+R = 287
+c0 = 344.371
+rho = 1.181
+
+[perfiles]
+baseline = C:\Users\josea\Desktop\Opti_Param_ruidoio\Proyecto_RuidoPerfil\data\airfoils\NACA63221.txt
+optimizado = C:\Users\josea\Desktop\Opti_Param_ruidoio\Proyecto_RuidoPerfil\data\optimized\optimized_NACA63221_hardcon.dat
