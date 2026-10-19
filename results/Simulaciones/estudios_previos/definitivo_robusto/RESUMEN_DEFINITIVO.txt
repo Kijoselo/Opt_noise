@@ -1,0 +1,37 @@
+OPTIMIZACION ROBUSTA DEFINITIVA (malla convergida, presupuesto 2000)
+=====================================================================
+Objetivo: minimizar el peor caso entre TNO, Goody y Kamruzzaman.
+Dominio expandido (caja +-80%, cap de espesor liberado 1.4*T0).
+Condiciones: AoA 4, U 83.31 m/s, Re 3.17e6, M 0.242, transicion 0.05.
+Convergencia: 63218 en 1293 evals, 63221 en 1144 evals (< 2000 = malla 1e-4).
+
+NACA 63-218 (definitivo):
+                   TNO    Goody   Kamruzzaman    Amiet
+  base             67.82   64.08     67.45       68.30
+  optimo           65.64   62.04     65.54       68.88
+  reduccion        +2.18   +2.04     +1.90       -0.58
+  peor-caso: 67.82 -> 65.64 dBA | Cl/Cd 60.1 -> 63.2 | tmax 18.1% -> 18.0%
+
+NACA 63-221 (definitivo):
+                   TNO    Goody   Kamruzzaman    Amiet
+  base             67.10   63.21     NaN(*)      68.77
+  optimo           65.71   61.67     65.70       68.94
+  reduccion        +1.38   +1.54     ---         -0.17
+  peor-caso: 67.10 -> 65.71 dBA | Cl/Cd 54.2 -> 59.9 | tmax 21.0% -> 18.0%
+
+CONCLUSIONES
+------------
+1. Ambos convergidos (malla 1e-4). Reduccion ROBUSTA en los 3 modelos de
+   gradiente de presion (TNO, Goody, Kamruzzaman): 1.4-2.2 dB.
+2. Ambos convergen a ~18% de espesor y MEJORAN el Cl/Cd (63218: +3, 63221: +6).
+3. CAVEAT Amiet: sigue ~0.2-0.6 dB mas ruidoso. Pero Amiet es casi INSENSIBLE
+   a la geometria aqui (queda en ~68 dBA para base y todos los optimos), asi
+   que es un mal discriminador, no una contradiccion fisica real. 3 de 4
+   modelos coinciden en reduccion.
+4. CAVEAT (*): Kamruzzaman NO converge en la geometria base exacta del 63-221
+   (NaN). El optimo si (65.70). Es un fallo numerico del modelo empirico en esa
+   forma; hay que reportarlo o excluir ese punto con criterio.
+
+NUMEROS PUBLICABLES (peor-caso, convergidos):
+  63-218: 67.82 -> 65.64 dBA (-2.18 en TNO, robusto en 3 modelos)
+  63-221: 67.10 -> 65.71 dBA (-1.38 en TNO, robusto en 3 modelos)

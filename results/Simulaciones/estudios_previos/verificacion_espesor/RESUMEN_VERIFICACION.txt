@@ -1,0 +1,55 @@
+VERIFICACION NO OPTIMIZADA: ESPESOR -> RUIDO (2026-07-30)
+==========================================================
+Objetivo: comprobar de forma independiente (sin optimizador) si la relacion
+espesor-ruido es coherente y si hubo problemas de calculo o "inventos de datos".
+Misma cadena de ruido sin modificar, mismas condiciones (AoA 4, Re 3.17e6).
+
+PRUEBA A - NACA 00XX simetricos (espesor puro, camber = 0):
+  t/c%   OASPL(A)  OASPLlin   H_succ  Cf_succ
+   8.0    68.53     68.98     1.57   0.00154
+  10.0    68.54     69.13     1.62   0.00132
+  12.0    68.45     69.22     1.69   0.00111
+  15.0    68.06     69.13     1.82   0.00081
+  18.0    67.37     68.70     2.00   0.00055
+  21.0    66.35     67.84     2.27   0.00032
+  24.0    65.07     66.49     2.73   0.00012   <- H>2.7: capa limite al limite
+
+PRUEBA B - NACA 63-221 con espesor escalado (camber fijo):
+  t/c%   OASPL(A)  OASPLlin   H_succ  Cf_succ
+  12.6    68.45     69.27     1.70   0.00112
+  14.7    68.33     69.33     1.78   0.00092
+  16.8    68.08     69.23     1.89   0.00072
+  18.9    67.67     68.94     2.04   0.00052
+  21.0    67.10     68.38     2.26   0.00033   (base real)
+  23.1    66.42     67.50     2.65   0.00015
+  25.2    66.14     67.13     4.02  -0.00000   <- SEPARADO: TNO invalido
+
+CONCLUSIONES
+------------
+1. NO hay error de calculo ni datos inventados. Las dos pruebas independientes
+   (simetrico y escalado) dan curvas de capa limite que SE SUPERPONEN casi
+   exactamente -> consistencia interna fuerte. Todo es suave y monotono.
+
+2. MAS GRUESO = MAS SILENCIOSO en este modelo (weighted y sin filtro).
+   -> Confirma la intuicion fisica. Mecanismo: al engrosar, el flujo se
+      desacelera mas hacia el borde de fuga -> baja la velocidad de borde y la
+      friccion Cf -> baja la presion de pared modelada -> menos ruido.
+
+3. PERO las mayores reducciones ocurren cuando la capa limite se acerca a la
+   SEPARACION (H -> 2.7-4.0, Cf -> 0), donde el modelo TNO NO es valido. El
+   punto de 25.2% ya esta separado (Cf=0): su bajo ruido NO es confiable. Por
+   eso existe la restriccion de adherencia H<=2.7.
+
+4. TENSION CON EL OPTIMO ADELGAZADO (63-218): el optimizador adelgazo el 63-218
+   (18% -> 13%) para reducir ruido, pero segun este barrido ADELGAZAR AUMENTA el
+   ruido. Es decir, la reduccion del optimo vino del CAMBER, no del espesor; el
+   adelgazamiento jugo EN CONTRA. Un 13% plano da 68.45 dBA, y el optimo del
+   63-218 a 13% da 65.76 -> los ~2.7 dB de diferencia son puro camber.
+   -> El optimo delgado del 63-218 es probablemente un MINIMO LOCAL: un perfil
+      GRUESO y recamberizado podria ser igual o mas silencioso, y con geometria
+      mas convencional. El 63-221, en cambio, se quedo en el tope de espesor
+      (0.205), coherente con "mas grueso = mejor".
+
+RECOMENDACION: re-optimizar el 63-218 forzando el espesor alto (cap activo,
+sin permitir adelgazar) y comprobar si alcanza <=65.76 dBA con forma gruesa
+convencional. Eso resolveria si el optimo delgado era espurio.

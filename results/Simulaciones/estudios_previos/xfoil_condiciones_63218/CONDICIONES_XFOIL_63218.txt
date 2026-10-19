@@ -1,0 +1,99 @@
+CONDICIONES XFOIL — NACA 63-218 optimizado (para dejar registrado)
+===================================================================
+Verificado ejecutando XFOIL v6.99 sobre la geometria optimizada definitiva.
+
+------------------------------------------------------------------
+1) POR QUE NO TE CONVERGE (diagnostico, reproducido tal cual)
+------------------------------------------------------------------
+Reproduje tu caso exacto (Re=6e6, alfa=0, transicion LIBRE, sin repanelar) y
+me dio el MISMO fallo que a ti: "VISCAL: Convergence failed", CL disparado,
+la solucion explota en el borde de fuga de la cara de presion (paneles ~221-223).
+
+La causa NO es la geometria. Es un perfil de CAMBER ALTO (~18% espesor,
+carga trasera). Con transicion LIBRE, XFOIL pone una burbuja de separacion
+laminar en la cara inferior a angulos bajos y NO cierra el calculo viscoso.
+
+Con 3 ajustes converge en TODO el rango -8 a +12 grados (incluido alfa=0):
+  (a) FORZAR la transicion a x/c = 0.05 en ambas caras   <-- el clave
+  (b) REPANELAR con  pane  antes de correr (malla limpia de 160 nodos)
+  (c) subir iteraciones:  iter 1000   (XFOIL por defecto solo hace 10)
+Y arrancar el barrido desde alfa=4 (punto de diseno, facil) hacia afuera,
+dejando que XFOIL use la capa limite anterior como semilla.
+
+------------------------------------------------------------------
+2) CONDICIONES QUE USE YO (punto de diseno del ruido)
+------------------------------------------------------------------
+  Reynolds            Re = 3.17e6   (cuerda 0.57 m, U 83.31 m/s, nu 1.5e-5)
+  Mach                M  = 0.242
+  Angulo de ataque    alfa = 4 grados   (punto de diseno)
+  Transicion forzada  x/c = 0.05  en cara de succion Y de presion
+  N_crit              9.0   (equivale a Tu ~0.07%, pero con trip forzado casi
+                            no influye porque la transicion la fijas tu)
+  Repanelado          pane  (XFOIL repanela a 160 nodos; desvio vs la .dat
+                            escrita = 4.2e-4 c, despreciable)
+  Iteraciones         1000
+
+  NOTA sobre Re: yo simule a Re=3.17e6 (condicion aeroacustica de la seccion).
+  Tu estas usando Re=6e6 para la pala; NO hay problema, converge igual con los
+  ajustes de arriba. Solo deja constancia del Re que uses en cada estacion.
+
+------------------------------------------------------------------
+3) COMO CORRERLO (2 opciones)
+------------------------------------------------------------------
+OPCION A - usar el script listo (recomendado):
+  Copia xfoil.exe a esta carpeta y ejecuta en la terminal:
+      xfoil.exe < xfoil_session_63218_OPT.txt
+  Genera "polar_salida.txt" con el barrido -6..+12 ya convergido.
+  (El script esta a Re=6e6, M=0.242. Cambia el Re en la linea que dice 6000000
+   si quieres otra estacion de la pala.)
+
+OPCION B - a mano dentro de XFOIL, en este orden EXACTO:
+      load  NACA63218_optimizado.dat
+      pane
+      oper
+      visc  6e6
+      mach  0.242
+      iter  1000
+      vpar
+        n 9
+        xtr
+        0.05
+        0.05
+      (enter para volver a OPER)
+      pacc
+        (nombre de archivo de salida)
+        (enter, sin dump)
+      alfa 4      <- arranca aqui (converge facil)
+      alfa 3 ... alfa -6   (baja de a 1 grado)
+      alfa 5 ... alfa 12   (sube de a 1 grado)
+
+  Regla de oro: NO saltes directo a alfa 0 o a angulos negativos en frio.
+  Arranca en alfa=4 y muevete de a 1 grado; XFOIL usa la solucion previa
+  como semilla y no diverge.
+
+------------------------------------------------------------------
+4) YA TIENES LOS POLARES CONVERGIDOS (por si no quieres recorrer XFOIL)
+------------------------------------------------------------------
+  polar_63218_OPT_Re6e6.txt    barrido -8..+12 del optimo, YA convergido a Re=6e6
+  polar_63218_BASE_Re6e6.txt   idem para el perfil base (comparacion)
+
+  Y para la PALA COMPLETA (rango +-180 grados) usa los que ya entregue:
+    pala_punta_NACA63218/polar360_optimizado.txt
+    pala_punta_NACA63218/polar360_base.txt
+  Esos ya traen XFOIL en el rango convergido + extrapolacion Viterna afuera.
+  OJO: es NORMAL que XFOIL solo no converja fuera de ~[-10, +14] grados en un
+  perfil de camber alto; por eso el polar +-180 se completa con Viterna. No es
+  un error del perfil.
+
+------------------------------------------------------------------
+5) SOBRE LA "GEOMETRIA RARA"
+------------------------------------------------------------------
+El optimo NO es delgado ni tiene ondulaciones: espesor ~18% (igual al base),
+parametrizado con CST orden 6 (suave por construccion, imposible generar
+rizados). Lo que se ve distinto es MAS CAMBER trasero: eso es justo lo que baja
+el ruido de borde de fuga, y tambien lo que hace a XFOIL sensible a bajos
+angulos si no fuerzas la transicion. La geometria cierra el borde de fuga
+exacto (0.0) y XFOIL la reproduce con desvio 4e-4 c.
+
+Perfil optimizado:  NACA63218_optimizado.dat   (199 puntos, formato Selig)
+Perfil base:        NACA63218_base.dat

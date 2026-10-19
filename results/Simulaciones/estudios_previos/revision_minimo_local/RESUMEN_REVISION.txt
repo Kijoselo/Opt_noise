@@ -1,0 +1,48 @@
+REVISION: ¿MINIMO LOCAL? + ROBUSTEZ ENTRE MODELOS (2026-07-31)
+================================================================
+Sin tocar la fisica. Solo se cambio: arranque, cotas de restriccion, modelo.
+
+1) VEREDICTO MINIMO LOCAL: CONFIRMADO
+-------------------------------------
+  optimo original (pattern search, +-50%, desde el base): 13%, 65.76 dBA
+  PSO global (+-70%):                                      16.5%, 65.07 dBA
+  -> Un optimizador global con mas dominio encontro algo 0.7 dB MEJOR (en TNO),
+     mas grueso y mas eficiente (Cl/Cd 67.9). El optimo delgado ERA un minimo
+     local; pattern search desde el base quedo atrapado.
+  (Nota: mejor caja +-70% Y otro optimizador -> el confound de la caja no se
+   aislo; pero la conclusion "una busqueda mas libre baja mas en TNO" es firme.)
+
+2) HALLAZGO CLAVE - SOBREAJUSTE AL MODELO TNO
+---------------------------------------------
+  OASPL(A) de cada geometria con los 4 modelos del codigo (base - optimo):
+                       TNO      Goody   Kamruzzaman   Amiet
+    base (18%)       67.82     64.08      67.45      68.30   (referencia)
+    delgado (13%)    65.76     61.87      67.27      68.62
+       reduccion    -2.06     -2.21      -0.18      +0.32   -> baja en TNO,Goody
+    grueso-A (17%)   66.23     62.89      68.18      68.72
+       reduccion    -1.59     -1.19      +0.73      +0.42   -> baja en TNO,Goody
+    libre-B (16.5%)  65.07     64.54      68.14      68.50
+       reduccion    -2.75     +0.46      +0.69      +0.20   -> baja SOLO en TNO
+
+  El optimo "mejor" (libre-B, el de menor TNO) es el MENOS robusto: solo es mas
+  silencioso bajo TNO; bajo Goody, Kamruzzaman y Amiet es MAS RUIDOSO que el
+  base. La busqueda mas libre no encontro una geometria mas silenciosa: encontro
+  una que EXPLOTA mejor las debilidades del modelo TNO (sobreajuste).
+
+  El optimo original delgado es, ironicamente, MAS robusto (reduce en 2 modelos)
+  que el "mejor" libre-B (reduce en 1).
+
+3) INTERPRETACION
+-----------------
+  - NO hay bug ni datos inventados: los calculos son coherentes y reproducibles.
+  - SI hay un problema conceptual: se esta optimizando el MODELO TNO, no el ruido
+    fisico. Dar mas libertad al optimizador EMPEORA el sobreajuste.
+  - La "rareza" geometrica que se percibia es el sintoma: el optimizador exprime
+    artefactos del modelo, no fisica robusta.
+
+4) RECOMENDACION
+----------------
+  Si se busca una reduccion FISICAMENTE creible, optimizar un objetivo ROBUSTO
+  usando SOLO los modelos que ya tiene el codigo (sin tocar fisica): por ejemplo
+  minimizar el PEOR caso (max sobre TNO/Goody/Kamruzzaman) o el promedio. Eso
+  daria un optimo que baje en TODOS los modelos, no uno que game a TNO.

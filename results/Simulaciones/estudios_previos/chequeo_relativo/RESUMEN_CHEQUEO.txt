@@ -1,0 +1,26 @@
+CHEQUEO C3 (revisor): objetivo robusto RELATIVO  min max_m [L_m(a) - L_m(a0)]
+================================================================================
+Solo capa de optimizacion (obj_noise_robusto_rel.m); FISICA INTACTA.
+Mismo dominio (+-80%, cap 1.4*T0), restricciones y presupuesto 2000 que la
+corrida definitiva absoluta. Convergio en 1324 evals (~55 min).
+
+Baseline (R0, proyeccion CST): TNO 67.82  Goody 64.08  Kamr 67.45
+
+Niveles OASPL(A) [dBA] por modelo:
+                 TNO    Goody   Kamr    Amiet   tmax
+  base          67.82   64.08   67.45   68.31   0.180
+  abs-opt (18%) 65.64   62.04   65.54   68.88   0.1795   <- reportado en el paper
+  rel-opt (17%) 65.61   61.09   65.01   68.92   0.1698
+
+Reduccion (base - opt):
+  abs-opt:  TNO +2.18  Goody +2.04  Kamr +1.91  Amiet -0.56  | peor de 3 grad: 1.91
+  rel-opt:  TNO +2.21  Goody +2.99  Kamr +2.44  Amiet -0.61  | peor de 3 grad: 2.21
+
+CONCLUSION
+- La formulacion relativa da un optimo casi igual (convencional, 17% vs 18%,
+  Cl/Cd 63.2) que reduce en los 3 modelos, con MEJOR balance: el peor caso de
+  reduccion sube de 1.9 a 2.2 dBA.
+- La formulacion absoluta NO era erronea; la relativa es mas limpia y algo
+  mejor. Se REPORTA el optimo absoluto (18%) como diseno principal y se anade
+  al manuscrito la Ec. relativa + este chequeo (Seccion 4.5).
+Archivos: opt_NACA63218_relativo.dat, rel_NACA63218.mat, crossmodel.mat
